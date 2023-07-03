@@ -115,3 +115,29 @@ nav {
 .toggle .bar03 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+
+.heroBanner {
+    /*filter: brightness(50%);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    overflow-y: hidden;
+    height: 500px;
+    width: 1600px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: brightness(60%);
+}
+
+.heroText {
+    position: absolute;
+    align-items: center;
+    font-size: 72px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #292929;
+    z-index: 1;
+}
