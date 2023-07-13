@@ -2,7 +2,8 @@
 * {
     margin: 0px;
     padding: 0px;
-    
+    box-sizing: border-box;
+    font-family: Tahoma;
 }
 
 nav {
@@ -147,19 +148,66 @@ I figured out that I actually like the white banner above the banner image */
 
 .block01 {
     display: flex;
-
+    justify-content: center;
 }
 .content {
     display: flex;
-    width: 100vw;
-    height: 40vh;
-    border-style: solid;
-    border-color: red;
+    width: 1200px;
+    height: 300px;
+    margin: 50px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    
+}
+.block-image {
+    background-color: black;
+    width: 450px;
+    margin-right: 15px;
+    background-size: cover;
+    border-radius: 15px 0 0 15px;
+    flex: 2;
 }
 
-.blockText01 {
+.hiking-img {
+    background-image: url("/img/patrick-hendry-PQa5vHHnpm4-unsplash.jpg");
+}
+
+.content a {
+    background-color: #6cbe4c;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+    font-weight: 700;
+    display: block;
+    width: 180px;
+    align-content: end;
+    height: 40px;
+    align-self: flex-end;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.content p {
+    align-self: center;
+    flex: 2;
+}
+
+/* styles for my novice hiking sidepage */
+
+.novice-hiking-banner {
     display: flex;
-    background-color: aquamarine;
-    width: 100vw;
-    height: 40vh;
+    justify-content: center;
+    filter: brightness(75%);
+    height: 600px;
+    margin: 30px;
+}
+
+.activityInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-style: solid black;
+    width: 50%;
 }
