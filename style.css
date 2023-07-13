@@ -168,8 +168,25 @@ I figured out that I actually like the white banner above the banner image */
     flex: 2;
 }
 
+/* content box images */
 .hiking-img {
     background-image: url("/img/patrick-hendry-PQa5vHHnpm4-unsplash.jpg");
+}
+
+.culture-img {
+    background-image: url("/img/GEO\ 06-600x414.jpeg");
+}
+
+.brewery-img {
+    background-image: url("/img/thomas-thompson-BoVxWyS5KAE-unsplash.jpg");
+}
+
+.ferryland-img {
+    background-image: url("/img/ferryland-lighthouse.png");
+}
+
+.whale-img {
+    background-image: url("/img/mike-doherty-JRsl_wfC-9A-unsplash.jpg");
 }
 
 .content a {
@@ -210,4 +227,10 @@ I figured out that I actually like the white banner above the banner image */
     text-align: center;
     border-style: solid black;
     width: 50%;
+}
+
+.activitiesTitle {
+    font-size: 54px;
+    display: flex;
+    justify-content: center;
 }
