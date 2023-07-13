@@ -234,3 +234,16 @@ I figured out that I actually like the white banner above the banner image */
     display: flex;
     justify-content: center;
 }
+
+/* About us page */
+
+.aboutUsBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.aboutUsTitle {
+    font-size: 26px;
+}
