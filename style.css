@@ -236,14 +236,31 @@ I figured out that I actually like the white banner above the banner image */
 }
 
 /* About us page */
-
-.aboutUsBlock {
+/* Who Are We? */
+.about-boxes {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+    justify-content: center;
+}
+.infoArea {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin: 25px;
+    background-color: whitesmoke;
+}
+.aboutImage {
+    background-color: black;
+    width: 50%;
+    margin-right: 40px;
+    background-size: cover;
+}
+
+.infoArea p {
+    align-self: center;
+    width: 100%;
+    margin: 25px;
+    flex: 1;
     text-align: center;
 }
 
-.aboutUsTitle {
-    font-size: 26px;
-}
+/* Our Mission */
