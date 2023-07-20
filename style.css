@@ -220,13 +220,10 @@ I figured out that I actually like the white banner above the banner image */
 }
 
 .activityInfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    width: 800px;
     text-align: center;
-    border-style: solid black;
-    width: 50%;
+    justify-items: center;
 }
 
 .activitiesTitle {
@@ -272,6 +269,7 @@ I figured out that I actually like the white banner above the banner image */
     flex-direction: column;
     height: 800px;
     padding: 10px 0px;
+    text-align: center;
 }
 
 .form-boxes {
@@ -287,6 +285,9 @@ I figured out that I actually like the white banner above the banner image */
     border-radius: 5px;
     border-color: #6cbe4c;
     width: 300px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
 .messageBox {
@@ -294,4 +295,14 @@ I figured out that I actually like the white banner above the banner image */
     width: 500px;
     height: 300px;
     border-radius: 5px;
+}
+
+.submitButton {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px;
 }
