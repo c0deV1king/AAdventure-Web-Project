@@ -283,7 +283,6 @@ I figured out that I actually like the white banner above the banner image */
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
-    border-color: #6cbe4c;
     width: 300px;
     display: flex;
     justify-content: center;
@@ -305,4 +304,23 @@ I figured out that I actually like the white banner above the banner image */
     height: 50px;
     border-radius: 10px;
     margin: 10px;
+    background: none;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #6cbe4c;
+}
+
+input.typeField {
+    border: 1px solid red;
+}
+
+.error-message {
+    color: red;
+    align-self: flex-start;
+}
+
+.hidden {
+    display: none;
 }

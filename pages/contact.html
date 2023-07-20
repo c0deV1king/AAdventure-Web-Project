@@ -45,24 +45,27 @@
     </nav>
     
 
-    <div class="contact-form">
-        <h1 class="activitiesTitle">Have a Question?</h1>
-        <form action="#" method="post" class="form-boxes">
-            <label for="name">First Name</label>
-            <input type="text" id="name" placeholder="name" class="typeField">
-
-            <label for="email">Email Address</label>
-            <input type="text" id="email" placeholder="email" class="typeField">
-
-            <label for="number">Phone Number</label>
-            <input type="text" id="number" placeholder="number (optional)" class="typeField">
-
-            <textarea class="messageBox" placeholder="Message..."></textarea>
-
-            <input type="button" href="#" value="Submit" class="submitButton">
-        </form>
-</div>
     
-<script src="/mobile.js"></script>
+    <h1 class="activitiesTitle">Have a Question?</h1>
+    <form action="#" method="post" class="contact-form">
+        <div class="form-boxes">
+            <label>First Name</label>
+            <input type="text" name="name" placeholder="name" class="typeField">
+        <div class="error-message hidden">Enter you're name.</div>
+
+        <label for="email">Email Address</label>
+        <input type="text" id="email" placeholder="email" class="typeField">
+
+        <label for="number">Phone Number</label>
+        <input type="text" id="number" placeholder="number (optional)" class="typeField">
+
+        <textarea class="messageBox" placeholder="Message..."></textarea>
+
+        <input type="button" href="#" value="Submit" class="submitButton">
+        </div>
+    </form>
+
+    
+<script src="/questionForm.js"></script>
 </body>
 </html>
